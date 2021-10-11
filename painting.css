@@ -3,26 +3,18 @@ body {
 }
 
 
-header {
-    width: 100%;
-    margin: 6em 0;
-}
-
 h3 {
   color:black;
   text-align: center;
   font-family: 'Arvo', serif;
-  padding-top: 100px;
+  padding-top: 50px;
 }
 
-h3:hover {
-  color: #fa5b3d;
-}
 
 #content {
     min-height: 100%;
     position: relative;
-    top: 100px;
+    top: 50px;
 }
 
 #container {
@@ -32,4 +24,19 @@ h3:hover {
     padding-bottom: 10em;
 }
 
+::-webkit-scrollbar {
+    width: 2px;
+  }
+  
+  ::-webkit-scrollbar-track {
+    background: azure; 
+  }
+  
+  ::-webkit-scrollbar-thumb {
+    background: #fa5b3d; 
+  }
+  
+  ::-webkit-scrollbar-thumb:hover {
+    background: rgb(12, 12, 12); 
+  }
 
