@@ -58,8 +58,34 @@ a {
   color: black;
 }
 
+/*a, a > span {
+    position: relative;
+    color: inherit;
+    text-decoration: none;
+    line-height: 24px;}
+a:before, a:after {
+    content: '';
+    position: absolute;
+    transition: transform .5s ease;
+}
+.effect-1 {
+  padding-top: 10px;
+}
+.effect :before {
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 2px;
+    background: darken(#0BAAD4, 10%);
+    transform:  scaleX(0);
+  }
+.effect:hover:before {
+    transform:  scaleX(1);
+  }*/
+
 a:hover{
   border-bottom: 2px solid #fa5b3d;
+
 }
 
 
